@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://2ilogo.png" type="Texture" id=1]
+[ext_resource path="res://SpinningScript.gd" type="Script" id=2]
+
+[node name="Control2" type="Control"]
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="2ilogo" type="TextureRect" parent="."]
+margin_left = -612.631
+margin_top = -325.263
+margin_right = 587.369
+margin_bottom = 302.737
+texture = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
